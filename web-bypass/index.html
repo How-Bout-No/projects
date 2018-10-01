@@ -9,6 +9,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+	<style>
+	@media only screen and (max-width: 479px) {
+	   .mobile-hide{ display: none !important; }
+	   .mobile-show{ display: inline !important; }
+	}
+</style>
   </head>
   <body>
     <div style="text-align:center">
@@ -41,8 +47,9 @@
 	
 	<div class="container">
 		<div class="card border-dark mb-3" style="margin: 0;">
-  <div class="card-header" style="text-align: center"><a href="https://bit.ly/web-bypass" class="btn btn-info btn-lg">Download Latest Version&ensp;<span class="badge badge-primary">1.3.1</span></a></div>
-  <div class="card-body">
+  <div class="card-header mobile-hide" style="text-align: center"><a href="https://bit.ly/web-bypass" class="btn btn-info btn-lg">Download Latest Version&ensp;<span class="badge badge-primary">1.3.1</span></a></div>
+  <div class="card-header mobile-show" style="text-align: center; display: none"><button class="btn btn-warning btn-lg"> Visit This Site On A Chromebook</button></div>
+  <div class="card-body mobile-hide">
     <p class="card-text" style="text-align: left;">
 	<ul>
 	  <li>Added "Long Load Detection"; the extension will ask if you want to disable it when it detects that websites are loading slowly</li>
