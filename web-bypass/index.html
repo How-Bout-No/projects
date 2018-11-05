@@ -10,8 +10,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="import" href="./navbar.html">
     <style>
         @media only screen and (max-width: 900px) {
             .mobile-hide {
@@ -38,12 +39,12 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#" style="padding-left:40px;"><i class="fas fa-ban"></i>&ensp;Web Bypass <span class="sr-only">(current)</span></a>
                     </li>
-					<li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" style="padding-left:40px;" href="https://how-bout-no.github.io/Proximity"><i class="fas fa-comments"></i>&ensp;Proximity</a>
                     </li>
                 </ul>
         </nav>
-        </div>
+    </div>
 
     </div>
 
@@ -62,15 +63,15 @@
             </div>
             <div class="card-header mobile-show" style="text-align: center; display: none">
                 <button class="btn btn-warning btn-lg">Visit This Site On A Computer
-                    <br/>To Download</button>
+                    <br />To Download</button>
             </div>
             <div class="card-body mobile-hide">
                 <p class="card-text" style="text-align: left;">
                     <ul style="font-size: 125%;">
                         <li>Added "Long Load Detection"; the extension will ask if you want to disable it when it detects that websites are loading slowly</li>
-                        <br/>
+                        <br />
                         <li>Added ability to disable "Long Load Detection"</li>
-                        <br/>
+                        <br />
                         <li>Some other minor fixes</li>
                     </ul>
                 </p>
@@ -85,30 +86,30 @@
             <div class="card-body">
                 <p class="card-text">On your Chromebook, click the button above to download the latest version or go to this URL:
                     <a href="https://bit.ly/web-bypass" class="card-link">https://bit.ly/web-bypass</a>.
-                    <br/>You may need to click "Keep" on the download.
-                    <br/>
+                    <br />You may need to click "Keep" on the download.
+                    <br />
 
                     <img id="inst0" class="hvr-grow" width="66%" height="66%" src="./images/inst0.gif">
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>Then, type <b>chrome://extensions</b> into the URL bar to go to the extensions page.
-                    <br/>
+                    <br />
+                    <br />
+                    <br />
+                    <br />Then, type <b>chrome://extensions</b> into the URL bar to go to the extensions page.
+                    <br />
                     <img id="inst" class="hvr-grow" width="66%" height="66%" src="./images/inst1.gif">
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>Next, open your <b>Files</b> and click and drag <b>web-bypass.crx</b> into the middle of the page.
-                    <br/>Click <b>'Add Extension'</b>
-                    <br/>
+                    <br />
+                    <br />
+                    <br />
+                    <br />Next, open your <b>Files</b> and click and drag <b>web-bypass.crx</b> into the middle of the page.
+                    <br />Click <b>'Add Extension'</b>
+                    <br />
                     <img id="inst" class="hvr-grow" width="66%" height="66%" src="./images/inst2.gif">
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>And... you're all set! To get started, click this icon next to your URL bar:&ensp;
+                    <br />
+                    <br />
+                    <br />
+                    <br />And... you're all set! To get started, click this icon next to your URL bar:&ensp;
                     <img id="switchicon" src="./switchicon.png">
-                    <br/>
-                    <br/>If you're having any issues, consider following the video guide above. Otherwise, get in contact with me <i class="far fa-grin-beam"></i>
+                    <br />
+                    <br />If you're having any issues, consider following the video guide above. Otherwise, get in contact with me <i class="far fa-grin-beam"></i>
                 </p>
             </div>
         </div>
@@ -122,37 +123,37 @@
                 <p class="card-text">If you're having trouble, try the following:
 
                     <ol>
-			<hr/>
-			<li>You may need to enable developer mode on the extensions page (and then refresh the page)
-                            <br/>
+                        <hr />
+                        <li>You may need to enable developer mode on the extensions page (and then refresh the page)
+                            <br />
                             <img id="trbl0" class="hvr-grow" width="66%" height="66%" src="./images/devscreenshot.png">
                         </li>
-			<hr/>
-			<li>Make sure you have the extension enabled
-                            <br/>
+                        <hr />
+                        <li>Make sure you have the extension enabled
+                            <br />
                             <img id="trbl0" class="hvr-grow" width="66%" height="66%" src="./images/enablescreenshot.png">
                         </li>
-			<hr/>
+                        <hr />
                         <li>Ensure you have the latest version of the extension, if you do try reinstalling
-                            <br/>
+                            <br />
                             <img id="trbl0" class="hvr-grow" width="66%" height="66%" src="./images/versionscreenshot.png">
                         </li>
-			<hr/>
+                        <hr />
                         <li>Make sure you're <i>not</i> dragging the file into the URL bar, and into the middle of the page</li>
-			<hr/>
+                        <hr />
                         <li>Make sure the <b>"Allow Proxies For Shared Networks"</b> switch is toggled on
-                            <br/>
+                            <br />
                             <img id="trbl1" class="hvr-grow" width="66%" height="66%" src="./images/proxyscreenshot.jpg">
                         </li>
-			<hr/>
+                        <hr />
                         <li>Close out of any other applications that may be open</li>
-			<hr/>
+                        <hr />
                         <li>Close out of any unnecessary tabs</li>
-			<hr/>
+                        <hr />
                         <li>Restart Chrome</li>
-			<hr/>
+                        <hr />
                         <li>Restart your whole computer</li>
-			<hr/>
+                        <hr />
                     </ol>
             </div>
         </div>
